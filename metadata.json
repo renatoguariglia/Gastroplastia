@@ -1,0 +1,8 @@
+{
+  "name": "Urgegastro - Gastroplastia Endoscópica",
+  "description": "Uma alternativa minimamente invasiva para auxiliar no tratamento do sobrepeso e da obesidade.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
