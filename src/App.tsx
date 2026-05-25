@@ -172,7 +172,7 @@ function Hero() {
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl relative">
               <div className="absolute inset-0 bg-primary-600/10 mix-blend-multiply rounded-2xl z-10"></div>
               <img 
-                src="/hero-image.jpg" 
+                src="https://i.postimg.cc/Wz4B75Lp/hero-image-jpg.jpg" 
                 alt="Médico especialista da Urgegastro" 
                 className="w-full h-full object-cover rounded-2xl"
               />
@@ -206,7 +206,7 @@ function Introducao() {
            transition={{ duration: 0.6 }}
         >
           <img 
-            src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80" 
+            src="https://i.postimg.cc/Vv3Kbgz4/urgegastro-gastroplastia-endoscopica-em-porto-alegre-removebg-preview.png" 
             alt="Equipamento de endoscopia" 
             className="rounded-2xl shadow-lg border border-gray-100"
           />

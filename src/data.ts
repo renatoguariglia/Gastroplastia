@@ -7,7 +7,7 @@ export const seoData = {
   subheadline: "Uma alternativa minimamente invasiva para auxiliar no tratamento do sobrepeso e da obesidade, com acompanhamento médico especializado em Porto Alegre.",
   cta_principal: {
     texto: "Agendar avaliação",
-    link: "https://urgegastro.com.br/contato",
+    link: "https://wa.me/5551984030882",
     canal: "WhatsApp ou formulário"
   },
   secoes: [
