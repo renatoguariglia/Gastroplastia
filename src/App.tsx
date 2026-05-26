@@ -30,7 +30,7 @@ function Section({ children, className = '', id = '' }: { children: ReactNode; c
   );
 }
 
-function SectionHeading({ subtitle, title, description, centered = false }: { subtitle?: string, title: string, description?: string, centered?: boolean }) {
+function SectionHeading({ subtitle, title, description, centered = false }: { subtitle?: string, title: ReactNode, description?: ReactNode, centered?: boolean }) {
   return (
     <div className={`mb-12 ${centered ? 'text-center max-w-3xl mx-auto' : 'max-w-2xl'}`}>
       {subtitle && (
@@ -68,11 +68,12 @@ function Navbar() {
     <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
-          <div className="flex-shrink-0 flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center text-white">
-              <Stethoscope size={24} />
-            </div>
-            <span className="font-bold text-2xl text-gray-900 tracking-tight">Urge<span className="text-primary-600">gastro</span></span>
+          <div className="flex-shrink-0 flex items-center">
+            <img 
+              src="https://i.postimg.cc/L8s64TGc/logo-urgegastro-final-08AGO25.png" 
+              alt="Urgegastro" 
+              className="h-12 md:h-14 w-auto object-contain"
+            />
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
@@ -315,7 +316,7 @@ function Comparacao() {
            whileInView={{ opacity: 1, x: 0 }}
            viewport={{ once: true }}
         >
-          <SectionHeading subtitle="Diferenças e Resultados" title={comparacao.h2} />
+          <SectionHeading subtitle="Diferenças e Resultados" title={<span style={{ color: '#ffffff' }}>{comparacao.h2}</span>} />
           <p className="text-gray-300 text-lg leading-relaxed mb-8">
             {comparacao.texto}
           </p>
@@ -536,9 +537,12 @@ function Footer() {
            </div>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center text-slate-500 text-sm">
-          <div className="flex items-center gap-2 mb-4 md:mb-0">
-            <Stethoscope size={20} />
-            <span className="font-bold text-lg text-white">Urge<span className="text-primary-500">gastro</span></span>
+          <div className="flex items-center mb-4 md:mb-0">
+            <img 
+              src="https://i.postimg.cc/L8s64TGc/logo-urgegastro-final-08AGO25.png" 
+              alt="Urgegastro" 
+              className="h-8 md:h-10 w-auto object-contain"
+            />
           </div>
           <p>© {new Date().getFullYear()} Urgegastro - Porto Alegre. Todos os direitos reservados.</p>
         </div>

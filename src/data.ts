@@ -1,13 +1,13 @@
 export const seoData = {
   keyword_principal: "Gastroplastia Endoscópica em Porto Alegre",
-  url_sugerida: "/gastroplastia-endoscopica-porto-alegre/",
-  meta_title: "Gastroplastia Endoscópica em Porto Alegre | Urgegastro",
-  meta_description: "Saiba como funciona a gastroplastia endoscópica em Porto Alegre, para quem é indicada, benefícios, recuperação e como agendar avaliação na Urgegastro.",
+  url_sugerida: "/gastroplastia-endoscopica-porto-alegre",
+  meta_title: "Gastroplastia Endoscópica Porto Alegre | Avaliação Especializada Urgegastro",
+  meta_description: "Gastroplastia endoscópica Porto Alegre com especialistas em endoscopia digestiva, avaliação médica e acompanhamento individualizado.",
   h1: "Gastroplastia Endoscópica em Porto Alegre",
   subheadline: "Uma alternativa minimamente invasiva para auxiliar no tratamento do sobrepeso e da obesidade, com acompanhamento médico especializado em Porto Alegre.",
   cta_principal: {
     texto: "Agendar avaliação",
-    link: "https://wa.me/5551984030882",
+    link: "https://wa.me/5551993570362",
     canal: "WhatsApp ou formulário"
   },
   secoes: [
